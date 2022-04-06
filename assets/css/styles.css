@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* 
+font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* ==========================================
+                COLORS
+===========================================*/
+
+/* 
+
+#070707
+#9d9f9f
+#f4f7f8
+#AC8059 
+
+*/
+
+/* ==========================================
+                GENERAL
+===========================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #070707;
+}
+
+/* ==========================================
+                Header
+===========================================*/
+
+header nav {
+    border-bottom: 1px solid #9d9f9f;
+    position: relative;
+}
+
+header nav h2 {
+    color: #9d9f9f;
+    font-family: 'Monoton', cursive;
+    display: inline-block;
+    font-size: 4rem;
+    margin-left: 30px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -2px;
+}
+
+header nav a:nth-child(2) {
+    color: #9d9f9f;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-left: 150px;
+}
+
+header nav ul {
+    display: inline;
+    margin-left: 43vh;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 50px;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #9d9f9f;
+    margin: 20px 0;
+}
+
+header nav ul li:first-child a:nth-of-type(1) {
+    color: #f4f7f8;
+}
+
+/* ==========================================
+                MAIN
+===========================================*/
+main {
+    overflow: hidden;
+    height: 80vh;
+}
+
+h1 {
+    color: #f4f7f8;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    padding-left: 20vh;
+}
+
+h1:first-child {
+    padding-top: 40vh;
+}
+
+p {
+    color: #AC8059;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20vh;
+    font-size:  2rem;
+}
+
+main section {
+    display: inline;
+    
+}
+
+main section div {
+    display: inline;
+    position: relative;
+    top: -50vh;
+    left: 76vh;
+    
+}
+
+main section div img {
+    width: 20%;
+    height: 500px;
+    margin-left: 25px;
+
+}
+
+
+/* ==========================================
+                FOOTER
+===========================================*/
+
+footer  div {
+    display: inline;
+    position: relative;
+    margin-left: 7vh;
+}
+
+footer > div > i {
+    color: #9d9f9f;
+    margin-left: 70px;
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: -60px;
+}
+
+footer .buttons {
+    position: relative;
+}
+
+footer .buttons div p {
+    color: #9d9f9f;
+}
+
+.buttons div:first-child {
+    position: absolute;
+    right: 400px;
+    color: #9d9f9f;
+}
+.buttons div:nth-child(2) {
+    position: absolute;
+    right: 300px;
+}
+
+footer .buttons div i {
+    color: #AC8059;
+    font-size: 50px;
+}
+
+#keinbockmehr1 {
+    position: absolute;
+    left: 1053px;
+    bottom: -38px;
+}
+
+#keinbockmehr2 {
+    position: absolute;
+    right: 380px;
+    bottom: -38px;
+}
